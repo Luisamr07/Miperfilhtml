@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Angel Mendez Romero - Perfil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <main class="container">
+    <div class="grid">
+      <!-- Perfil -->
+      <div class="profile-card">
+        <div class="profile-content">
+          <div class="profile-info">
+            <h1>Mi Perfil</h1>
+            <p class="subtitle">Datos Personales</p>
+            
+            <div class="profile-details">
+              <div class="detail-item">
+                <i class="fas fa-user"></i>
+                <span>24 años</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-envelope"></i>
+                <span>Luis_amr12@hotmail.com</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Venezuela</span>
+              </div>
+            </div>
+            
+            <div class="about-me">
+              <h2>Sobre Mí</h2>
+              <p>
+                Mi nombre completo es Luis Angel Mendez Romero, soy una persona sociable, muy familiar, 
+                tengo una hermosa hija con la cual me gusta pasar el tiempo libre, jugar videojuegos en línea y pasar tiempo con amistades, me gustaria seguir sumergiéndome en este extenso mundo de la informática y obtener dichos conocimientos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section">
+        <!-- Experiencia -->
+        <section class="card experience-section">
+          <div class="section-header">
+            <i class="fas fa-briefcase"></i>
+            <h2>Experiencia</h2>
+          </div>
+          
+          <div class="experience-items">
+            <div class="experience-item">
+              <h3>Conocimientos en Programación</h3>
+              <p>
+                He aprendido sobre lo básico en la programación y su basto lenguaje, hice un curso en Logica de programacion el cual me ayudo a entender cosas esenciales de la misma.
+              </p>
+            </div>
+            
+            <div class="experience-item">
+              <h3>Liderazgo de Equipo</h3>
+              <p>
+                Tengo experiencia en liderazgo de equipo en proyectos importantes.
+              </p>
+            </div>
+            
+            <div class="experience-item">
+              <h3>Seguridad Integral</h3>
+              <p>
+                Experiencia con el trato de personal y la seguridad integral.
+              </p>
+            </div>
+          </div>
+          
+          <div class="skills-highlight">
+            <h3>Habilidades Destacadas</h3>
+            <ul class="skills-list">
+              <li><i class="fas fa-check-circle"></i> Liderazgo de equipo</li>
+              <li><i class="fas fa-check-circle"></i> Seguridad integral</li>
+              <li><i class="fas fa-check-circle"></i> Programación básica</li>
+              <li><i class="fas fa-check-circle"></i> Trabajo en equipo</li>
+              <li><i class="fas fa-check-circle"></i> Comunicación efectiva</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <div class="content-section">
+        <!-- Educación -->
+        <section class="card education-section">
+          <div class="section-header">
+            <i class="fas fa-graduation-cap"></i>
+            <h2>Educación</h2>
+          </div>
+          
+          <div class="education-items">
+            <div class="education-item">
+              <div class="education-icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <div class="education-content">
+                <h3>TSU en Informática</h3>
+                <p class="education-status">Cursando actualmente</p>
+                <p>
+                  Estudio TSU en Informática y espero culminar mis estudios como Ingeniero en Sistemas.
+                </p>
+              </div>
+            </div>
+            
+            <div class="education-item">
+              <div class="education-icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <div class="education-content">
+                <h3>Bachiller en Ciencias</h3>
+                <p class="education-status">Completado</p>
+                <p>
+                  Bachiller en ciencias en el colegio U.E.B Guaraguao.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Contacto -->
+      <section class="card contact-section">
+        <h2>Contacto</h2>
+        
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <p class="contact-label">Teléfono</p>
+              <p class="contact-value">+58 4129487346</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <p class="contact-label">Email Alternativo</p>
+              <p class="contact-value">Lamrmendez07@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <p class="contact-label">Ubicación</p>
+              <p class="contact-value">Puerto La Cruz, Anzoategui</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulario de Contacto -->
+      <section class="card contact-form-section" id="contact-form-section">
+        <div class="section-header">
+          <i class="fas fa-paper-plane"></i>
+          <h2>Enviar Mensaje</h2>
+        </div>
+        
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name" class="required">Nombre</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              required 
+              aria-required="true"
+              aria-describedby="nameError"
+              placeholder="Ingrese su nombre completo"
+            >
+            <div class="error-message" id="nameError" role="alert">Por favor, ingrese su nombre</div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email" class="required">Correo Electrónico</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              required 
+              aria-required="true"
+              aria-describedby="emailError"
+              placeholder="ejemplo@correo.com"
+            >
+            <div class="error-message" id="emailError" role="alert">Por favor, ingrese un correo electrónico válido</div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message" class="required">Mensaje</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              required 
+              aria-required="true"
+              aria-describedby="messageError"
+              placeholder="Escriba su mensaje aquí..."
+            ></textarea>
+            <div class="error-message" id="messageError" role="alert">Por favor, ingrese su mensaje</div>
+          </div>
+          
+          <button type="submit" class="submit-btn" aria-label="Enviar mensaje">
+            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+          </button>
+        </form>
+        
+        <div class="form-message" id="formMessage" role="alert" aria-live="polite"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Obtener los elementos del formulario
+      const name = document.getElementById('name');
+      const email = document.getElementById('email');
+      const message = document.getElementById('message');
+      const formMessage = document.getElementById('formMessage');
+      
+      // Obtener los elementos de error
+      const nameError = document.getElementById('nameError');
+      const emailError = document.getElementById('emailError');
+      const messageError = document.getElementById('messageError');
+      
+      // Resetear mensajes de error
+      nameError.classList.remove('show');
+      emailError.classList.remove('show');
+      messageError.classList.remove('show');
+      formMessage.className = 'form-message';
+      
+      let isValid = true;
+      
+      // Validar nombre
+      if (name.value.trim() === '') {
+        nameError.classList.add('show');
+        isValid = false;
+        name.focus();
+      }
+      
+      // Validar email
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email.value)) {
+        emailError.classList.add('show');
+        isValid = false;
+        if (!name.value.trim()) name.focus();
+        else email.focus();
+      }
+      
+      // Validar mensaje
+      if (message.value.trim() === '') {
+        messageError.classList.add('show');
+        isValid = false;
+        if (!name.value.trim()) name.focus();
+        else if (!emailRegex.test(email.value)) email.focus();
+        else message.focus();
+      }
+      
+      if (isValid) {
+        // Mostrar mensaje de carga
+        formMessage.textContent = 'Enviando mensaje...';
+        formMessage.classList.add('success');
+        
+        // Preparar los datos del formulario
+        const formData = new FormData();
+        formData.append('Name', name.value.trim());
+        formData.append('Email', email.value.trim());
+        formData.append('Message', message.value.trim());
+        
+        // Enviar los datos usando Formspree
+        fetch('https://formspree.io/f/myzegdwg', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        })
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Error en el envío: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data.ok) {
+            // Mostrar mensaje de éxito
+            formMessage.textContent = '¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.';
+            formMessage.classList.add('success');
+            
+            // Limpiar el formulario
+            e.target.reset();
+            
+            // Enfocar el primer campo para la siguiente entrada
+            name.focus();
+          } else {
+            throw new Error('Error en la respuesta del servidor');
+          }
+        })
+        .catch(error => {
+          // Mostrar mensaje de error más específico
+          formMessage.textContent = `Error al enviar el mensaje: ${error.message}. Por favor, intente nuevamente.`;
+          formMessage.classList.add('error');
+          console.error('Error detallado:', error);
+        });
+      } else {
+        formMessage.textContent = 'Por favor, corrija los errores antes de enviar el formulario.';
+        formMessage.classList.add('error');
+      }
+    });
+
+    // Validación en tiempo real
+    const inputs = document.querySelectorAll('.form-group input, .form-group textarea');
+    inputs.forEach(input => {
+      input.addEventListener('input', function() {
+        const errorElement = document.getElementById(this.id + 'Error');
+        if (this.value.trim() === '') {
+          errorElement.classList.add('show');
+        } else if (this.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.value)) {
+          errorElement.classList.add('show');
+        } else {
+          errorElement.classList.remove('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
